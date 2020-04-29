@@ -1,0 +1,21 @@
+Determining if the function pcap_get_pfring_id exists failed with the following output:
+Change Dir: /home/giuseppefn/CLionProjects/packet_sniffer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_141e0/fast && /usr/bin/make -f CMakeFiles/cmTC_141e0.dir/build.make CMakeFiles/cmTC_141e0.dir/build
+make[1]: Entrando no diretório '/home/giuseppefn/CLionProjects/packet_sniffer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Building C object CMakeFiles/cmTC_141e0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pcap_get_pfring_id   -o CMakeFiles/cmTC_141e0.dir/CheckFunctionExists.c.o   -c /var/lib/snapd/snap/clion/111/bin/cmake/linux/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_141e0
+/var/lib/snapd/snap/clion/111/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_141e0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pcap_get_pfring_id    CMakeFiles/cmTC_141e0.dir/CheckFunctionExists.c.o  -o cmTC_141e0  /usr/lib/libpcap.so 
+/usr/bin/ld: CMakeFiles/cmTC_141e0.dir/CheckFunctionExists.c.o: na função "main":
+CheckFunctionExists.c:(.text+0x10): referência não definida para "pcap_get_pfring_id"
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_141e0.dir/build.make:88: cmTC_141e0] Erro 1
+make[1]: Saindo do diretório '/home/giuseppefn/CLionProjects/packet_sniffer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+make: *** [Makefile:121: cmTC_141e0/fast] Erro 2
+
+
+
