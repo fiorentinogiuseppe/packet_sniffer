@@ -22,6 +22,12 @@ Caso desejemos capturar tráfego específico devemos criar um conjunto de regras
 convertido em um formato que o pcap pode ler, ou seja chamando uma função dentro do programa (também chamado de processo 
 de "compilação") e aplicá-lo à sessão que desejarmos filtrar.
 
+## Setting the device
+## Opening the device for sniffing
+## Filtering traffic
+## The actual sniffing
+
+
 ## <a name="links"></a>Links
 * ‘char* pcap_lookupdev(char*)’ esta `deprecated` e foi indicado pela lib usar o 
 `pcap_findalldevs`. Além disso indica pecar o primeiro device, que pelo que entendi
